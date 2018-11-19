@@ -1,0 +1,31 @@
+#reg{
+    background: #096;
+    border:none;
+}
+.mui-bar-nav.mui-bar .mui-icon {
+    color: #333;
+}
+.mui-bar-nav{
+    box-shadow: none;
+}
+.mui-input-row label{
+    width:25%;
+    font-size: .32rem;
+}
+.mui-input-row label~input{
+    width:75%;
+}
+#phone{
+    width:45%;
+}
+#phone+.mui-icon{
+    left:60%;
+}
+.getCode{
+    float: right;
+    width:30%;
+    padding: 11px;
+    color:#096;
+    border-left:1px solid #dadada;
+    font-size: .32rem;
+}

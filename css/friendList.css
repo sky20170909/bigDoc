@@ -1,3 +1,6 @@
+.mui-bar-nav~.mui-content{
+	padding-top: 0;
+}
 .mui-content>.mui-table-view:first-child{
 	margin-top: 0;
 }
@@ -16,4 +19,33 @@
 	color:#E4393C;
 	font-size: .32rem;
 	margin: .1rem 0;
+}
+nav{
+	margin-top: .88rem;
+}
+nav ul{
+	height:.88rem;
+	text-align: center;
+	line-height: .88rem;
+	background: #fff;
+	padding: 0 .15rem;
+	display: flex;
+}
+nav li{
+	width:1.8rem;
+	flex: 1;
+	font-size: .3rem;
+	color:#333;
+	border-bottom:1px solid transparent;
+	list-style: none;
+}
+nav li.active{
+	border-bottom:1px solid #096;
+	color:#096;
+}
+.box{
+	display: none;
+}
+.box.active{
+	display: block;
 }

@@ -19,6 +19,9 @@ $(function() {
 	}
 	var Request = new UrlSearch(); //实例化
 	var id = Request.id * 1; //商品id
+	if(id==5){
+		$(".info .price span").html("490购物车+￥490")
+	}
 	mui(".spec").on("tap", "p", function() {
 		$(".prop").addClass("active");
 	})
@@ -63,6 +66,12 @@ $(function() {
 	mui("footer").on("tap",".orderDown",function(){
 		mui.openWindow({
 			url:"pro_info.html"
+		})
+	})
+	//联系客服
+	mui("footer").on("tap",".cart",function(){
+		mui.openWindow({
+			url:"http://p.qiao.baidu.com/cps/chat?siteId=12618572&userId=1525167"
 		})
 	})
 })

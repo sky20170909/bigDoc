@@ -1,43 +1,14 @@
 mui.init()
-//城市选择
-$("#city-picker").cityPicker({
-    toolbarTemplate: '<header class="bar bar-nav">\
-    <button class="button button-link pull-right close-picker">确定</button>\
-    <h1 class="title">选择收货地址</h1>\
-    </header>',
-    onClose:function(v){
-    	$("#city-picker").val(v.displayValue[0]||"")
-    	$("#city-picker1").val(v.displayValue[1]||"")
-    	$("#city-picker2").val(v.displayValue[2]||"")
+
+  $("#city-picker").cityPicker({
+    title: "选择收货地址",
+    onChange: function (picker, values, displayValues) {
+      console.log(values, displayValues);
     }
-});
-$("#city-picker1").cityPicker({
-    toolbarTemplate: '<header class="bar bar-nav">\
-    <button class="button button-link pull-right close-picker">确定</button>\
-    <h1 class="title">选择收货地址</h1>\
-    </header>',
-    onClose:function(v){
-    	$("#city-picker").val(v.displayValue[0]||"")
-    	$("#city-picker1").val(v.displayValue[1]||"")
-    	$("#city-picker2").val(v.displayValue[2]||"")
-    }
-});
-$("#city-picker2").cityPicker({
-    toolbarTemplate: '<header class="bar bar-nav">\
-    <button class="button button-link pull-right close-picker">确定</button>\
-    <h1 class="title">选择收货地址</h1>\
-    </header>',
-    onClose:function(v){
-    	$("#city-picker").val(v.displayValue[0]||"")
-    	$("#city-picker1").val(v.displayValue[1]||"")
-    	$("#city-picker2").val(v.displayValue[2]||"")
-    }
-});
+  });
 $("body").on("tap",".btn",function(){
 	var province=$("#city-picker").val();
-	var city=$("#city-picker1").val();
-	var area=$("#city-picker2").val();
-	if(province&&city){
+	if(province){
 		var infoAdd=$(".textarea").val();
 		if(infoAdd){
 			var userName=$(".userName").val().trim();
