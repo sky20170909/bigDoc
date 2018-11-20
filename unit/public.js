@@ -1,5 +1,5 @@
 mui.init();
-mui(".bottom").on("tap",".index",function(){
+mui("body").on("tap",".index",function(){
 	console.log("index")
 	mui.openWindow({
 		url:'index.html'
