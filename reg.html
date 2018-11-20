@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html class="ui-page-login">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>注册</title>
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link href="css/public.css?v=1.0" rel="stylesheet"/>
+		<link href="css/reg.css?v=1.0" rel="stylesheet" />
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title">注册</h1>
+		</header>
+		<div class="mui-content">
+			<form class="mui-input-group">
+				<div class="mui-input-row">
+					<label>姓名</label>
+					<input id='userName' type="text" class="mui-input-clear mui-input" placeholder="请输入真实的姓名">
+				</div>
+				<div class="mui-input-row">
+					<label>手机号</label>
+					<span class="getCode">获取验证码</span>
+					<input id='phone' type="number" class="mui-input-clear mui-input" placeholder="请输入手机号">
+
+				</div>
+				<div class="mui-input-row">
+					<label>验证码</label>
+					<input id='code' type="number" class="mui-input-clear mui-input" placeholder="请输入验证码">
+				</div>
+				<div class="mui-input-row">
+					<label>邀请码</label>
+					<input id='Invite' type="number" class="mui-input-clear mui-input" placeholder="请输入邀请人手机号">
+				</div>
+			</form>
+			<div class="mui-content-padded">
+				<button id='reg' class="mui-btn mui-btn-block mui-btn-primary">注册</button>
+			</div>
+		</div>
+		<script src="js/mui.min.js"></script>
+		<script src="js/jquery-3.3.1.min.js"></script>
+		<script src="unit/reg.js?v=1.0"></script>
+	</body>
+
+</html>
