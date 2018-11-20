@@ -1,18 +1,15 @@
 mui.init();
 mui("body").on("tap",".index",function(){
-	console.log("index")
 	mui.openWindow({
 		url:'index.html'
 	});
 })
 mui("body").on("tap",".Notice",function(){
-	console.log("2")
 	mui.openWindow({
 		url:'Notice.html'
 	});
 })
 mui("body").on("tap",".center",function(){
-	console.log("3")
 	mui.openWindow({
 		url:'center.html'
 	});
