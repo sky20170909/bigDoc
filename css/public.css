@@ -13,7 +13,8 @@ body{
 }
 html{
 	font-size: calc(100vw/7.5);
-		font-family: PingFang-SC-Medium;
+	font-family: PingFang-SC-Medium;
+	touch-action: none
 }
 .mui-content{
 	padding-bottom: 1.2rem;
@@ -62,7 +63,7 @@ input::-webkit-input-placeholder{
 input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill{
 	background: transparent !important;
 }
-nav.mui-bottom{
+div.mui-bottom{
 	height: 1rem;
 	background: #fff;
 	-webkit-box-shadow: 0 0 0px rgba(0,0,0,0);
@@ -73,25 +74,25 @@ nav.mui-bottom{
 	left: 0;
 	bottom: 0;
 }
-nav.mui-bottom>ul{
+div.mui-bottom>ul{
 	width:100%;
 	display: flex;
 }
-nav.mui-bottom>ul>li{
+div.mui-bottom>ul>li{
 	flex:1;
 	text-align: center;
 	padding-top: .2rem;
 }
-nav.mui-bottom>ul>li>a{
+div.mui-bottom>ul>li>a{
 	width:100%;
 	display: block;
 }
-nav.mui-bottom>ul>li span{
+div.mui-bottom>ul>li span{
 	display: block;
 	font-size:.24rem;
 	margin-top: -.2rem;
 	color: #929292;;
 }
-nav.mui-bottom>ul>li.active span{
+div.mui-bottom>ul>li.active span{
 	color:#096;
 }

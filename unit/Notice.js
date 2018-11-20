@@ -1,5 +1,4 @@
 ;$(function(){
-	mui.init();
 	mui("ol").on("tap","li",function(){
 		var cName = this.getAttribute("index")*1;
 		$("ol>li.active").removeClass("active");
@@ -11,7 +10,7 @@
 			$("#tab2").addClass("active");
 		}
 	})
-	mui("ul").on("tap","li",function(){
+	mui("ul.mui-table-view").on("tap","li",function(){
 		var id = this.getAttribute("id");
 		$("ol>li.active").removeClass("active");
 		//传值进入

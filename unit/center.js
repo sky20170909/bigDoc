@@ -1,5 +1,5 @@
 $(function(){
-	mui.init();
+
 	//打开提现
 	mui("body").on("tap",".putforward",function(){
 		mui.openWindow({
