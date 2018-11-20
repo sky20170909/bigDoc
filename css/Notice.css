@@ -1,3 +1,7 @@
+
+.mui-content{
+	overflow-y: scroll;
+}
 ol{
 	display: flex;
 }

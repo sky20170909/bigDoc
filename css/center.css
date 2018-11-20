@@ -233,3 +233,6 @@ ul.list{
 #list li .r{
 	padding-top: .2rem;
 }
+.mui-content{
+	overflow-y: scroll;
+}

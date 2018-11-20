@@ -10,6 +10,7 @@ ol,li{
 }
 body{
 	overflow-x: hidden;
+	overflow-y: scroll;
 }
 html{
 	font-size: calc(100vw/7.5);
