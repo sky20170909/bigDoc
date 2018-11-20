@@ -1,4 +1,7 @@
 /*关部*/
+html{
+	touch-action: none
+}
 .mui-content{
 	position: relative;
 	padding-bottom: .1rem;

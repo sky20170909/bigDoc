@@ -15,7 +15,6 @@ body{
 html{
 	font-size: calc(100vw/7.5);
 	font-family: PingFang-SC-Medium;
-	touch-action: none
 }
 .mui-content{
 	padding-bottom: 1.2rem;

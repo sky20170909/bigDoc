@@ -1,3 +1,6 @@
+html{
+	touch-action: none
+}
 
 .mui-content{
 	overflow-y: scroll;
