@@ -207,12 +207,12 @@ header .info .UName{
 .order .stat div span.active{
 	opacity: 1;
 }
-ul{
+ul.list{
 	position:relative;
 	top:-1rem;
 	padding: 0;
 }
-li{
+#list li{
 	list-style: none;
 	margin: .2rem 0;
 	padding: 0 .4rem;
@@ -221,15 +221,15 @@ li{
 	background: #fff;
 	
 }
-li img{
+#list li img{
 	width:.6rem;
 	margin-right:.2rem;
 	vertical-align: middle;
 }
-li span{
+#list li span{
 	font-size: .36rem;
 	vertical-align: middle;
 }
-li .r{
+#list li .r{
 	padding-top: .2rem;
 }
