@@ -1,5 +1,11 @@
 $(function(){
 
+	//打开天天领红包
+	mui("body").on("tap",".redPack",function(){
+		mui.openWindow({
+			url:'redPack.html'
+		});
+	})
 	//打开提现
 	mui("body").on("tap",".putforward",function(){
 		mui.openWindow({
