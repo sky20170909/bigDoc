@@ -15,10 +15,8 @@
     left:0;
 }
 .box img{
-    width:10vw;
     position: absolute;
-    top:0;
-    left:50%;
+    transition: all 3s linear;
 }
 footer{
     position: fixed;
@@ -26,6 +24,10 @@ footer{
     width:100%;
     text-align: center;
     padding: 0 .5rem;
+}
+footer img{
+    position: fixed;
+    left:2.4rem;
 }
 footer span{
     font-size:.3rem;
