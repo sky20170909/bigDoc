@@ -3,6 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/css/public.css" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/css/reg.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/unit/redPack.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/unit/reg.js" charset="UTF-8" />
   </component>
 </project>
