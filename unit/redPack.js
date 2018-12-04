@@ -17,7 +17,6 @@ $(function() {
 		left = 0,
 		width = 0,
 		len = 0,
-		html = "",
 		index = 1;
 
 	var t0 = setInterval(function() {
